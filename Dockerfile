@@ -1,7 +1,6 @@
 FROM ubuntu:bionic
 
 RUN \
-  mkdir /home/jhipster/app && \
   apt-get update && \
   # install utilities
   apt-get install -y \
